@@ -32,7 +32,7 @@
     text-align: center;
     cursor: pointer;
     border-radius: 50%;
-    border: 5px solid #D8E2DC;
+    border: 5px solid white;
     float: left;
     transition: all 0.5s ease;
   }
@@ -40,7 +40,7 @@
   /* Style the icons by setting its color and margin-top value to 20px 
   to align it properly */
   .wrapper ul li .fa {
-    color: #D8E2DC;
+    color:slateblue;
     margin-top: 20px;
     transition: all 0.5s ease;
   }
