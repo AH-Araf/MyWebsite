@@ -17,7 +17,7 @@
   }
 
   
-
+/* ------------ */
   footer{
     text-align: center;
     width: 100%;
@@ -29,3 +29,57 @@
     padding-bottom:40px ;
 }
 
+/* --------- */
+.icon-color1{
+  text-decoration: none; 
+  color: 	#4169E1;  
+}
+.icon-color2{
+  text-decoration: none;
+  color: 	red;
+}
+.icon-color3{
+  text-decoration: none;
+  color: 	#5F9EA0;
+}
+.icon-color4{
+  text-decoration: none;
+  color:			darkred;
+}
+
+.hover-icons a:hover{
+  color:rgb(250, 151, 115);
+}
+  
+
+@keyframes flicker {
+  from {
+    text-shadow:
+    0 0 3px yellowgreen,0 0 5px yellowgreen,
+    0 0 3px yellowgreen, 0 0 10px yellowgreen;
+  }
+  to {
+    text-shadow:
+    0 0 5px #09889c, 0 0 10px #09889c,
+    0 0 5px #09889c, 0 0 20px #09889c;
+  }
+}
+
+/* (C) ATTACH ANIMATION */
+.flick { animation: flicker 1s ease-in-out infinite alternate; }
+
+@keyframes flicker1 {
+  from {
+    text-shadow:
+    0 0 5px #00dcff,0 0 10px #00dcff,
+    0 0 20px #00dcff, 0 0 40px #00dcff;
+  }
+  to {
+    text-shadow:
+    0 0 5px #09889c, 0 0 10px #09889c,
+    0 0 20px #09889c, 0 0 40px #09889c;
+  }
+}
+
+/* (C) ATTACH ANIMATION */
+.flick1 { animation: flicker1 1s ease-in-out infinite alternate; }
