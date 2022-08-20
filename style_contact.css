@@ -2,6 +2,12 @@
 .bg-color{
     background-color: #1a1728;
 }
+.bg-sec{
+  background-color: #1F4F4F;
+}
+.bg-suc{
+  background-color: #1a1728;
+}
   .wrapper {
     position: absolute;
     top: 50%;
@@ -38,7 +44,7 @@
     margin-top: 20px;
     transition: all 0.5s ease;
   }
-  
+ 
   /* Now target the specific li classes for styling and use box-shadow effect to border and text-shadow effect
     to icons for glowing effect and use transition property for smooth transition effect. */
   /*facebook*/
@@ -133,3 +139,34 @@
         margin-left: 15px;
     }
   }
+
+
+
+  @keyframes flicker {
+    from {
+      text-shadow:
+      0 0 3px yellowgreen,0 0 5px yellowgreen,
+      0 0 3px yellowgreen, 0 0 10px yellowgreen;
+    }
+    to {
+      text-shadow:
+      0 0 5px #09889c, 0 0 10px #09889c,
+      0 0 5px #09889c, 0 0 20px #09889c;
+    }
+  }
+  
+  /* (C) ATTACH ANIMATION */
+  .flick { animation: flicker 1s ease-in-out infinite alternate; }
+
+
+  .signboard {
+    /* (B1) SIZING */
+    width:100%;
+    /* (B3) BORDER */
+    border: 1px solid #00e1ff;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.8);
+  }
+
+
+
+  
